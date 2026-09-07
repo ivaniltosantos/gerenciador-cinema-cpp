@@ -1,0 +1,18 @@
+#  Executáveis 
+*.exe
+*.out
+
+#  Arquivos objeto (compilação intermediária) 
+*.o
+*.obj
+
+#  Arquivos de debug do GDB 
+*.pdb
+*.ilk
+
+#  Pasta de build (caso use CMake no futuro) 
+build/
+
+#  Arquivos temporários do sistema 
+*.tmp
+*.log
