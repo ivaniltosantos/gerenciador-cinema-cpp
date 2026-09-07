@@ -1,10 +1,10 @@
-# 🎬 Sistema de Gerenciamento de Cinema (C++)
+# Sistema de Gerenciamento de Cinema (C++)
 
 Sistema em C++ para cadastro de filmes, listagem, cálculo de 
 arrecadação e identificação do filme com maior faturamento, 
 rodando via console (terminal).
 
-## 📋 Funcionalidades
+## Funcionalidades
 
 - Cadastro de novos filmes (título, gênero, duração, preço do 
   ingresso e ingressos vendidos)
@@ -13,14 +13,14 @@ rodando via console (terminal).
 - Cálculo da arrecadação total de todos os filmes (utilizando 
   sobrecarga de funções)
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - C++ 
 - Biblioteca `<iostream>` para entrada/saída
 - Struct (`Filme`) para organização dos dados
 - Sobrecarga de funções (`calcularArrecadacao`)
 
-## 💻 Como Compilar e Executar
+## Como Compilar e Executar
 
 ### Pré-requisitos
 - Compilador g++ instalado
@@ -46,7 +46,7 @@ g++ main.cpp -o cinema.exe
 1. Abra a pasta do projeto no VS Code
 2. Pressione F5 (as configurações de build já estão prontas em `.vscode/`)
 
-## 📖 Como Usar
+## Como Usar
 
 Ao rodar o programa, um menu será exibido:
 
@@ -63,7 +63,7 @@ Ao rodar o programa, um menu será exibido:
 
 Basta digitar o número da opção desejada e seguir as instruções.
 
-## 📌 Estrutura de Dados
+## Estrutura de Dados
 
 O sistema utiliza uma struct para representar cada filme:
 
@@ -77,7 +77,7 @@ typedef struct {
 } Filme;
 ```
 
-## 🚧 Melhorias Futuras
+##  Melhorias Futuras
 
 - Persistência de dados em arquivo (atualmente os dados são 
   perdidos ao fechar o programa)
@@ -85,13 +85,13 @@ typedef struct {
 - Edição e remoção de filmes cadastrados
 - Criação de uma interface 
 
-## 📄 Licença
+## Licença
 
 Este projeto está sob a licença MIT — veja o arquivo [LICENSE](LICENSE) 
 para mais detalhes.
 
 
-## 👤 Autor
+## Autor
 
 Desenvolvido por **Ivanilto Santos**
 
