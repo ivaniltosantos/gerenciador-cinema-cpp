@@ -37,10 +37,10 @@ Se a versão do compilador for exibida, o ambiente está pronto
 para compilar o projeto.
 
 ### Compilando pelo terminal
-\`\`\`bash
+```bash
 g++ main.cpp -o cinema.exe
 ./cinema.exe
-\`\`\`
+```
 
 ### Compilando pelo VS Code
 1. Abra a pasta do projeto no VS Code
@@ -50,7 +50,7 @@ g++ main.cpp -o cinema.exe
 
 Ao rodar o programa, um menu será exibido:
 
-\`\`\`
+```
 ================ CINEMA MENU ================
  [1] Cadastrar novo filme
  [2] Listar todos os filmes
@@ -59,7 +59,7 @@ Ao rodar o programa, um menu será exibido:
 ---------------------------------------------
  [x] Pressione qualquer outra tecla para sair
 =============================================
-\`\`\`
+```
 
 Basta digitar o número da opção desejada e seguir as instruções.
 
@@ -67,7 +67,7 @@ Basta digitar o número da opção desejada e seguir as instruções.
 
 O sistema utiliza uma struct para representar cada filme:
 
-\`\`\`cpp
+```cpp
 typedef struct {
     string titulo;
     string genero;
@@ -75,7 +75,7 @@ typedef struct {
     float precoIngresso;
     int ingressosVendidos;
 } Filme;
-\`\`\`
+```
 
 ## 🚧 Melhorias Futuras
 
